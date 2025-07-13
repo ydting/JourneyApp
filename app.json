@@ -2,9 +2,13 @@
   "expo": {
     "scheme": "acme",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-sqlite"
     ],
     "name": "JourneyApp",
-    "slug": "JourneyApp"
+    "slug": "JourneyApp",
+    "android": {
+      "package": "com.ydting.JourneyApp"
+    }
   }
 }
